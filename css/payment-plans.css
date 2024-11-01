@@ -1,0 +1,44 @@
+
+
+/* CSS for the Payment Plans Layout */
+
+.layup-payment-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.pp-entry {background-color: #fff;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 13px #d6d6d6;
+    -moz-box-shadow: 0 0 13px #d6d6d6;
+    -webkit-box-shadow: 0 0 13px #d6d6d6; padding: 20px; border-radius: 10px;}
+
+
+.pp-entry img {width:100%; height:auto; margin:0;}
+
+
+.pp-entry:nth-of-type(3n+4) {clear:left;}
+
+
+.pp-content {font-size: 0.8em;}
+
+
+.pp-ref {font-size: 0.6em; color:#777777; text-align: center;}
+
+
+/* CSS for the Clear fix on single product Layout */
+
+
+.clearfix:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both;
+
+}
